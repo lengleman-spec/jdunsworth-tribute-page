@@ -8,11 +8,21 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  background-color: #356077;
+}
+
+main {
   background-color: #82bfca;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 header {
   background-color: #6b9ca5;
+  margin: auto;
+  min-width: 80%;
 }
 
 figure {
