@@ -7,6 +7,14 @@
   font-family: "Quicksand", sans-serif;
 }
 
+body {
+  background-color: #82bfca;
+}
+
+header {
+  background-color: #6b9ca5;
+}
+
 figure {
   text-align: center;
 }
@@ -22,9 +30,11 @@ header img {
 }
 
 header p {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
   max-width: 600px;
   margin: 2em auto 1.7em;
+  padding-bottom: 2em;
 }
 
 .divider {
