@@ -86,7 +86,26 @@ main {
 }
 
 .quote-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: #6b9ca5;
   margin: auto;
-  min-width: 80%;
+  width: 80%;
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 400px;
+}
+
+div.quote-block p {
+  width: 350px;
+}
+
+#filler-test-div {
+  background-color: gray;
+  height: 600px;
 }
