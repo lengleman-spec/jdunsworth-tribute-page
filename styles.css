@@ -109,6 +109,9 @@ main {
 
 div.section-container img {
   height: 200px;
+  border: 2px solid #356077;
+  border-radius: 6px;
+  box-shadow: 10px 10px 8px #356077;
 }
 
 .quote-block {
