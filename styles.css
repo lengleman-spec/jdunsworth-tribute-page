@@ -53,3 +53,38 @@ header p {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #356077;
+}
+
+.info-container {
+  width: 80%;
+  padding: 1em;
+}
+
+#info-img {
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #356077;
+}
+
+.img-div {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 75px;
+}
+
+.quote-container {
+  background-color: #6b9ca5;
+  margin: auto;
+  min-width: 80%;
+}
