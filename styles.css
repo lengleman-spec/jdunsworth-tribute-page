@@ -146,32 +146,59 @@ div.quote-block p {
 
 #awards-container {
   border: 3px solid purple;
+  background-color: #82bfca;
+  margin: auto;
+  width: 80%;
+  min-height: 500px;
 }
 
 #gemini-awards {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .awards-card {
-  border: 3px solid black;
   padding: 10px;
   width: 50%;
   margin: 15px 8px;
   display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
 }
 
 .awards-card img {
   height: 180px;
+  margin-right: 16px;
 }
+
+.award-text {
+  padding: 5px;
+  border: 3px solid red;
+}
+
 #awards-header {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .award-name {
   text-align: left;
   margin: 18px 10px;
-  font-size: 22px;
+  font-size: 1.8rem;
+}
+
+.award-text h4 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.award-text p {
+  font-size: 1.2rem;
+  margin: 6px 0;
+}
+
+.divider-text {
+  border: 3px solid black;
 }
