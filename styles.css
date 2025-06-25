@@ -38,6 +38,11 @@ h1 {
   font-size: 2.7rem;
 }
 
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
 header img {
   height: 350px;
   border-radius: 20px;
@@ -155,17 +160,17 @@ div.quote-block p {
 #gemini-awards {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .awards-card {
   padding: 10px;
-  width: 50%;
+  height: 100%;
+  flex: 1; /*Tells it you want the children to grow equally AND start from a zero initial size */
   margin: 15px 8px;
   display: flex;
-  justify-content: space-between;
-  border: 2px solid black;
+  justify-content: flex-start;
+  border: 3px solid black;
 }
 
 .awards-card img {
@@ -173,9 +178,15 @@ div.quote-block p {
   margin-right: 16px;
 }
 
+.awards-card .divider {
+  border-top: 2px solid #808080;
+  height: 0;
+  margin-top: 0.8em;
+  margin-bottom: 2.2em;
+}
+
 .award-text {
   padding: 5px;
-  border: 3px solid red;
 }
 
 #awards-header {
@@ -199,6 +210,6 @@ div.quote-block p {
   margin: 6px 0;
 }
 
-.divider-text {
-  border: 3px solid black;
+.sm-text {
+  font-size: 1rem;
 }
