@@ -164,13 +164,14 @@ div.quote-block p {
 }
 
 .awards-card {
-  padding: 10px;
+  padding: 12px;
   height: 100%;
   flex: 1; /*Tells it you want the children to grow equally AND start from a zero initial size */
   margin: 15px 8px;
   display: flex;
   justify-content: flex-start;
-  border: 3px solid black;
+  border: 3px solid #356077;
+  border-radius: 6px;
 }
 
 .awards-card img {
@@ -179,7 +180,7 @@ div.quote-block p {
 }
 
 .awards-card .divider {
-  border-top: 2px solid #808080;
+  border-top: 2px solid #12232c;
   height: 0;
   margin-top: 0.8em;
   margin-bottom: 2.2em;
@@ -203,13 +204,17 @@ div.quote-block p {
 .award-text h4 {
   font-size: 1.3rem;
   margin-bottom: 12px;
+  color: #1e3846;
 }
 
 .award-text p {
   font-size: 1.2rem;
   margin: 6px 0;
+  color: #12232c;
 }
 
 .sm-text {
   font-size: 1rem;
+  color: #1e3846;
+  font-weight: 500;
 }
