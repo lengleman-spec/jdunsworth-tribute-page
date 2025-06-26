@@ -157,7 +157,8 @@ div.quote-block p {
   min-height: 500px;
 }
 
-#gemini-awards {
+#gemini-awards,
+#genie-awards {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -177,6 +178,9 @@ div.quote-block p {
 .awards-card img {
   height: 180px;
   margin-right: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 121px;
 }
 
 .awards-card .divider {
