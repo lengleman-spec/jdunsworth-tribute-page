@@ -190,6 +190,10 @@ div.quote-block p {
   margin-bottom: 2.2em;
 }
 
+.awards-card.last-card {
+  margin-bottom: 100px;
+}
+
 .award-text {
   padding: 5px;
 }
