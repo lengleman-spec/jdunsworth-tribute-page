@@ -156,8 +156,7 @@ div.quote-block p {
   min-height: 500px;
 }
 
-#gemini-awards,
-#genie-awards {
+.award-section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -189,7 +188,8 @@ div.quote-block p {
   margin-bottom: 2.2em;
 }
 
-.awards-card.last-card {
+.awards-card.last-card,
+#genie-awards {
   margin-bottom: 100px;
 }
 
@@ -214,18 +214,30 @@ div.quote-block p {
 
 .award-text h4 {
   font-size: 1.3rem;
-  margin-bottom: 12px;
+  margin: 12px 0;
   color: #1e3846;
 }
 
 .award-text p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 6px 0;
   color: #12232c;
 }
 
 .sm-text {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #1e3846;
   font-weight: 500;
+}
+
+.sm-text a {
+  font-size: 1rem;
+}
+
+h5 {
+  color: #1e3846;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: -10px;
+  margin-bottom: 4px;
 }
