@@ -189,7 +189,9 @@ div.quote-block p {
 }
 
 .awards-card.last-card,
-#genie-awards {
+#genie-awards,
+#actra-awards,
+#independ-awards {
   margin-bottom: 100px;
 }
 
