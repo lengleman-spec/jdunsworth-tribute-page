@@ -154,6 +154,9 @@ div.quote-block p {
   margin: auto;
   width: 80%;
   min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .award-section {
@@ -169,7 +172,7 @@ div.quote-block p {
   margin: 15px 8px;
   display: flex;
   justify-content: flex-start;
-  border: 3px solid #356077;
+  /* border: 3px solid #356077; */
   border-radius: 6px;
 }
 
@@ -188,11 +191,19 @@ div.quote-block p {
   margin-bottom: 2.2em;
 }
 
-.awards-card.last-card,
-#genie-awards,
-#actra-awards,
-#independ-awards {
-  margin-bottom: 100px;
+.award-section {
+  border: 3px solid #12232c;
+  border-radius: 12px;
+}
+
+.award-divider {
+  border-top: 2px solid #12232c;
+  height: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
 }
 
 .award-text {
