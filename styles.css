@@ -163,6 +163,8 @@ div.quote-block p {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .awards-card {
