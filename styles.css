@@ -194,8 +194,10 @@ div.quote-block p {
 }
 
 .award-section {
-  border: 3px solid #12232c;
+  border: 2px solid #12232c;
   border-radius: 12px;
+  width: 90%;
+  margin: 22px auto;
 }
 
 .award-divider {
@@ -222,9 +224,11 @@ div.quote-block p {
 
 .award-name {
   text-align: left;
-  margin: -6px 10px;
+  margin-left: 50px;
+  margin-bottom: -14px;
+  margin-top: 40px;
   font-size: 1.8rem;
-  color: #1e3846;
+  color: #12232c;
 }
 
 .award-text h4 {
