@@ -261,3 +261,23 @@ h5 {
   margin-top: -10px;
   margin-bottom: 4px;
 }
+
+/* FOOTER */
+footer {
+  width: 80%;
+  min-height: 200px;
+  margin: auto;
+  background-color: #6b9ca5;
+}
+
+footer a {
+  color: #12232c;
+  font-weight: 500;
+  display: block;
+  margin: 8px 6px;
+  text-align: left;
+}
+
+footer div {
+  margin: 30px;
+}
